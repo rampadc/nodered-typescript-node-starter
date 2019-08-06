@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    RED.nodes.registerType('text-case', {
+      category: 'function',
+      defaults: {
+        style: {
+          value: 'lowercase'
+        }
+      },
+      inputs: 1,
+      outputs: 1,
+      icon: 'inject.png',
+      label: function() {
+        return this.style;
+      }
+    })
+</script>
+<script type="text/x-red" data-template-name="text-case">
+    <div class="form-row">
+      <label for="node-input-style"><i class="fas fa-edit"></i> Case</label>
+      <select id="node-input-style">
+          <option value="lowercase">Lower</option>
+          <option value="uppercase">Upper</option>
+          <option value="capitalize">Capitalize</option>
+      </select>
+  </div>
+</script>

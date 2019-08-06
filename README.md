@@ -1,0 +1,1 @@
+Simple node written in Node-RED.

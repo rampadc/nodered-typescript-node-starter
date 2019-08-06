@@ -1,0 +1,24 @@
+{
+  "name": "node-red-contrib-stylize-text",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "Cong Nguyen",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node-red": "^0.20.0",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "node-red": "^0.20.7",
+    "typescript": "^3.5.3"
+  },
+  "node-red": {
+    "nodes": {
+      "text-case": "dist/text-casing.js"
+    }
+  }
+}
