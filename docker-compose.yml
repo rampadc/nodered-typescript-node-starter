@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  test:
+    image: nodered/node-red-docker:slim
+    volumes:
+      - ./dist:/data/nodes
+    ports: 
+      - 1880:1880
