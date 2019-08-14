@@ -12,7 +12,6 @@
     "@types/node-red": "^0.20.0",
     "del": "^5.0.0",
     "gulp": "^4.0.2",
-    "gulp-livereload": "^4.0.1",
     "gulp-shell": "^0.7.1",
     "gulp-typescript": "^5.0.1",
     "node-red": "^0.20.7",
