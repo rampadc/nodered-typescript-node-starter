@@ -15,7 +15,7 @@
     "gulp": "^4.0.2",
     "gulp-shell": "^0.7.1",
     "gulp-typescript": "^5.0.1",
-    "node-red": "^0.20.7",
+    "node-red": "^0.20.8",
     "typescript": "^3.5.3"
   },
   "node-red": {
